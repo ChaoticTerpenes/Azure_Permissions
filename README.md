@@ -2,7 +2,7 @@
 Place for storing specific policies not configurable by default using the Azure interface. 
 
 ## Create a Resource Group Role
-- Create a custom role by using the `customRoleDefinition.json` file and running the below command:
+- Create a custom role by updating the `customRoleDefinition.json` file on line 16 with your Azure SubscriptionId and running the below command:
 ```bash
 az role definition create --role-definition customRoleDefinition.json
 ```
