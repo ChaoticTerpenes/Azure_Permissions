@@ -1,5 +1,5 @@
 # Azure_Permissions (*HAS NOT BEEN TESTED*)
-Place for storing specific policies not configurable by default using the Azure interface. 
+The below code is intended to provide a user the ability to create a resource group and read from another existing resource group. This user will only be allowed to delete the resource group that they created and nothing else. 
 
 ## Create a Resource Group Role
 - Create a custom role by updating the `customRoleDefinition.json` file on line 16 with your Azure SubscriptionId and running the below command:
