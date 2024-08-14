@@ -1,0 +1,18 @@
+{
+    "Name": "Resource Group Creator and VM Deployer",
+    "Description": "Allows user to create and manage their own resource groups and deploy VMs.",
+    "Actions": [
+      "Microsoft.Resources/subscriptions/resourceGroups/read",
+      "Microsoft.Resources/subscriptions/resourceGroups/write",
+      "Microsoft.Resources/subscriptions/resourceGroups/delete",
+      "Microsoft.Resources/deployments/*",
+      "Microsoft.Compute/virtualMachines/*",
+      "Microsoft.Network/*",
+      "Microsoft.Storage/*",
+      "Microsoft.Resources/subscriptions/resourceGroups/*"
+    ],
+    "NotActions": [],
+    "AssignableScopes": [
+      "/subscriptions/[ADD SUBSCRIPT ID HERE]"
+    ]
+  }  
